@@ -1,0 +1,4 @@
+topic,3
+alpha,1e-08
+beta, 10
+gamma,5.281189986111027
