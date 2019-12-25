@@ -194,7 +194,7 @@ class TriMine(object):
         #     for j in range(self.k):
         #         num += digamma(self.Nku[j, i] + self.alpha)
 
-        self.alpha *= self.alpha * num / den
+        self.alpha *= num / den
 
         if self.alpha > self.max_alpha:
             self.alpha = self.max_alpha
